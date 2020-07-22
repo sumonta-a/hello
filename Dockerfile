@@ -19,6 +19,7 @@ CMD ["/sbin/my_init"]
 
 # ...put your own build instructions here...
 RUN echo "Hello World!!"
+RUN echo "Adding ReadMe File in Git"
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
