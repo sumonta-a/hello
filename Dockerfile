@@ -20,6 +20,7 @@ CMD ["/sbin/my_init"]
 # ...put your own build instructions here...
 RUN echo "Hello World!!"
 RUN echo "Adding ReadMe File in Git"
+RUN echo "Testing at 04:45 PM 23rd July 2020"
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
